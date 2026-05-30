@@ -62,7 +62,7 @@ Error generating stack: `+i.message+`
     vec2 p = (uv - 0.5) * vec2(u_resolution.x / u_resolution.y, 1.0);
 
     float t = u_time * 0.15;
-    float isMobile = step(u_resolution.x, 768.0);
+    float isMobile = step(u_resolution.x, 2000.0);
     float orbScale = mix(1.0, 0.45, isMobile);
 
     // Animated orbs
