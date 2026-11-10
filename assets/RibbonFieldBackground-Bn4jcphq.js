@@ -1,4 +1,4 @@
-import{H as m,w as C}from"./index-B8GZ98Ku.js";const B=`
+import{H as m,w as C}from"./index-Bu98PyQZ.js";const B=`
         attribute vec2 position;
         void main() {
           gl_Position = vec4(position, 0.0, 1.0);
